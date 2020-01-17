@@ -1,0 +1,13 @@
+RUN	Compenssar.user	user	1579295168205	 	3.0.2
+USER	Escenario1: Ingreso al Portal	1	START	1579295169879	1579295169879
+REQUEST	1		Home	1579295169938	1579295170050	OK	 
+REQUEST	1		Pagina de Autenticacion 1	1579295175082	1579295175113	OK	 
+REQUEST	1		Pagina de Autenticacion 2	1579295180109	1579295180194	OK	 
+REQUEST	1		Pagina de Autenticacion 2 Redirect 1	1579295180207	1579295180225	OK	 
+REQUEST	1		Pagina de Autenticacion 2 Redirect 2	1579295180227	1579295180272	OK	 
+REQUEST	1		Pagina de Login	1579295185261	1579295185284	OK	 
+REQUEST	1		Pagina para envio de Usuario y Clave	1579295190304	1579295190823	OK	 
+REQUEST	1		Pagina para envio de Usuario y Clave Redirect 1	1579295190834	1579295191263	OK	 
+REQUEST	1		Pagina Usuario Autenticado	1579295196264	1579295196763	OK	 
+ERROR	Pagina que nuestra los datos del usuario autenticado: Failed to build request: No attribute named 'Auth_Response' is defined 	1579295201768
+USER	Escenario1: Ingreso al Portal	1	END	1579295169879	1579295206772

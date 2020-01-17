@@ -1,0 +1,16 @@
+RUN	Compenssar.user	user	1579294960513	 	3.0.2
+USER	Escenario1: Ingreso al Portal	1	START	1579294962145	1579294962145
+REQUEST	1		Home	1579294962203	1579294962317	OK	 
+REQUEST	1		Pagina de Autenticacion 1	1579294967347	1579294967381	OK	 
+REQUEST	1		Pagina de Autenticacion 1 Redirect 1	1579294967408	1579294967465	OK	 
+REQUEST	1		Pagina de Autenticacion 1 Redirect 2	1579294967472	1579294967492	OK	 
+REQUEST	1		Pagina de Autenticacion 1 Redirect 3	1579294967494	1579294967541	OK	 
+REQUEST	1		Pagina de Autenticacion 2	1579294972547	1579294972565	OK	 
+REQUEST	1		Pagina de Autenticacion 2 Redirect 1	1579294972568	1579294972583	OK	 
+REQUEST	1		Pagina de Autenticacion 2 Redirect 2	1579294972586	1579294972607	OK	 
+REQUEST	1		Pagina de Login	1579294977590	1579294977609	OK	 
+REQUEST	1		Pagina para envio de Usuario y Clave	1579294982632	1579294983197	OK	 
+REQUEST	1		Pagina para envio de Usuario y Clave Redirect 1	1579294983203	1579294983667	OK	 
+REQUEST	1		Pagina Usuario Autenticado	1579294988674	1579294989131	OK	 
+REQUEST	1		Pagina que nuestra los datos del usuario autenticado	1579294994123	1579294994144	KO	status.find.is(200), but actually found 404
+USER	Escenario1: Ingreso al Portal	1	END	1579294962145	1579294999146

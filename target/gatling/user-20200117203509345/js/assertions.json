@@ -1,0 +1,10 @@
+{
+  "simulation": "Compenssar.user",
+  "simulationId": "user",
+  "start": 1579293309345,
+  "description": "",
+  "scenarios": ["Escenario1: Ingreso al Portal"],
+  "assertions": [
+
+  ]
+}

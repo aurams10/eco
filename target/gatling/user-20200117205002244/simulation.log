@@ -1,0 +1,61 @@
+RUN	Compenssar.user	user	1579294202244	 	3.0.2
+USER	Escenario1: Ingreso al Portal	1	START	1579294203960	1579294203960
+USER	Escenario1: Ingreso al Portal	2	START	1579294203968	1579294203968
+USER	Escenario1: Ingreso al Portal	3	START	1579294203969	1579294203969
+USER	Escenario1: Ingreso al Portal	4	START	1579294203969	1579294203969
+USER	Escenario1: Ingreso al Portal	5	START	1579294203970	1579294203970
+REQUEST	4		Home	1579294204050	1579294204212	OK	 
+REQUEST	3		Home	1579294204050	1579294204181	OK	 
+REQUEST	2		Home	1579294204049	1579294204182	OK	 
+REQUEST	1		Home	1579294204045	1579294204219	OK	 
+REQUEST	5		Home	1579294204053	1579294204212	OK	 
+REQUEST	2		Pagina de Autenticacion 1	1579294209194	1579294209219	OK	 
+REQUEST	3		Pagina de Autenticacion 1	1579294209194	1579294210226	OK	 
+REQUEST	5		Pagina de Autenticacion 1	1579294209224	1579294210254	OK	 
+REQUEST	1		Pagina de Autenticacion 1	1579294209235	1579294210272	OK	 
+REQUEST	4		Pagina de Autenticacion 1	1579294209235	1579294210272	OK	 
+REQUEST	2		Pagina de Autenticacion 2	1579294214225	1579294214296	OK	 
+REQUEST	2		Pagina de Autenticacion 2 Redirect 1	1579294214305	1579294214325	OK	 
+REQUEST	2		Pagina de Autenticacion 2 Redirect 2	1579294214327	1579294214385	OK	 
+REQUEST	3		Pagina de Autenticacion 2	1579294215237	1579294215308	OK	 
+REQUEST	3		Pagina de Autenticacion 2 Redirect 1	1579294215310	1579294215327	OK	 
+REQUEST	5		Pagina de Autenticacion 2	1579294215263	1579294215337	OK	 
+REQUEST	4		Pagina de Autenticacion 2	1579294215273	1579294215339	OK	 
+REQUEST	1		Pagina de Autenticacion 2	1579294215273	1579294215352	OK	 
+REQUEST	4		Pagina de Autenticacion 2 Redirect 1	1579294215341	1579294215361	OK	 
+REQUEST	3		Pagina de Autenticacion 2 Redirect 2	1579294215328	1579294215355	OK	 
+REQUEST	5		Pagina de Autenticacion 2 Redirect 1	1579294215339	1579294215359	OK	 
+REQUEST	1		Pagina de Autenticacion 2 Redirect 1	1579294215354	1579294215368	OK	 
+REQUEST	4		Pagina de Autenticacion 2 Redirect 2	1579294215363	1579294215380	OK	 
+REQUEST	1		Pagina de Autenticacion 2 Redirect 2	1579294215370	1579294215390	OK	 
+REQUEST	5		Pagina de Autenticacion 2 Redirect 2	1579294215365	1579294215390	OK	 
+REQUEST	2		Pagina de Login	1579294219398	1579294219419	OK	 
+REQUEST	3		Pagina de Login	1579294220355	1579294220378	OK	 
+REQUEST	4		Pagina de Login	1579294220376	1579294220411	OK	 
+REQUEST	1		Pagina de Login	1579294220396	1579294220415	OK	 
+REQUEST	5		Pagina de Login	1579294220397	1579294220415	OK	 
+REQUEST	2		Pagina para envio de Usuario y Clave	1579294224442	1579294225052	OK	 
+REQUEST	2		Pagina para envio de Usuario y Clave Redirect 1	1579294225057	1579294225524	OK	 
+REQUEST	3		Pagina para envio de Usuario y Clave	1579294225388	1579294225798	OK	 
+REQUEST	1		Pagina para envio de Usuario y Clave	1579294225402	1579294225937	OK	 
+REQUEST	5		Pagina para envio de Usuario y Clave	1579294225402	1579294225951	OK	 
+REQUEST	4		Pagina para envio de Usuario y Clave	1579294225412	1579294226037	OK	 
+REQUEST	3		Pagina para envio de Usuario y Clave Redirect 1	1579294225800	1579294226166	OK	 
+REQUEST	1		Pagina para envio de Usuario y Clave Redirect 1	1579294225946	1579294226397	OK	 
+REQUEST	5		Pagina para envio de Usuario y Clave Redirect 1	1579294225957	1579294226483	OK	 
+REQUEST	4		Pagina para envio de Usuario y Clave Redirect 1	1579294226039	1579294226488	OK	 
+REQUEST	2		Pagina Usuario Autenticado	1579294230529	1579294231021	OK	 
+REQUEST	3		Pagina Usuario Autenticado	1579294231165	1579294231652	OK	 
+REQUEST	1		Pagina Usuario Autenticado	1579294231392	1579294231896	OK	 
+REQUEST	4		Pagina Usuario Autenticado	1579294231485	1579294231999	OK	 
+REQUEST	5		Pagina Usuario Autenticado	1579294231494	1579294232106	OK	 
+ERROR	Pagina que nuestra los datos del usuario autenticado: Failed to build request: No attribute named 'wresult' is defined 	1579294236029
+ERROR	Pagina que nuestra los datos del usuario autenticado: Failed to build request: No attribute named 'wresult' is defined 	1579294236657
+ERROR	Pagina que nuestra los datos del usuario autenticado: Failed to build request: No attribute named 'wresult' is defined 	1579294236912
+ERROR	Pagina que nuestra los datos del usuario autenticado: Failed to build request: No attribute named 'wresult' is defined 	1579294237007
+ERROR	Pagina que nuestra los datos del usuario autenticado: Failed to build request: No attribute named 'wresult' is defined 	1579294237104
+USER	Escenario1: Ingreso al Portal	2	END	1579294203968	1579294241018
+USER	Escenario1: Ingreso al Portal	3	END	1579294203969	1579294241652
+USER	Escenario1: Ingreso al Portal	1	END	1579294203960	1579294241912
+USER	Escenario1: Ingreso al Portal	4	END	1579294203969	1579294242015
+USER	Escenario1: Ingreso al Portal	5	END	1579294203970	1579294242115
