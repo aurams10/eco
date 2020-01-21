@@ -1,8 +1,5 @@
-package Compenssar
-
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
-import scala.concurrent.duration._
 
 class user extends Simulation {
   val data = csv("data/data1.csv").circular

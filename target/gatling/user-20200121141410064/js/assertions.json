@@ -1,0 +1,10 @@
+{
+  "simulation": "scripts.user",
+  "simulationId": "user",
+  "start": 1579616050064,
+  "description": "",
+  "scenarios": ["Step1: Ingreso al Portal"],
+  "assertions": [
+
+  ]
+}

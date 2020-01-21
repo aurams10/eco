@@ -1,0 +1,5 @@
+RUN	scripts.compras	compras	1579636001376	 	3.0.2
+USER	Escenario1: Ingreso al Portal	1	START	1579636002932	1579636002932
+REQUEST	1		Home	1579636002962	1579636003163	OK	 
+REQUEST	1		Compras	1579636008185	1579636010488	KO	css((#id,None)).find.exists, found nothing
+USER	Escenario1: Ingreso al Portal	1	END	1579636002932	1579636015500

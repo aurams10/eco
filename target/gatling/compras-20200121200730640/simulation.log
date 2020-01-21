@@ -1,0 +1,5 @@
+RUN	scripts.compras	compras	1579637250640	 	3.0.2
+USER	Escenario1: Ingreso al Portal	1	START	1579637252282	1579637252282
+REQUEST	1		Home	1579637252349	1579637252494	OK	 
+REQUEST	1		Compras	1579637257517	1579637258661	KO	css((.form-control.search-query,Some(type))).find.exists, found nothing
+USER	Escenario1: Ingreso al Portal	1	END	1579637252282	1579637263655

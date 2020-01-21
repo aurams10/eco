@@ -1,0 +1,10 @@
+{
+  "simulation": "scripts.compras",
+  "simulationId": "compras",
+  "start": 1579630412357,
+  "description": "",
+  "scenarios": ["Escenario1: Ingreso al Portal"],
+  "assertions": [
+
+  ]
+}

@@ -1,0 +1,5 @@
+RUN	scripts.compras	compras	1579619642181	 	3.0.2
+USER	Escenario1: Ingreso al Portal	1	START	1579619643731	1579619643731
+REQUEST	1		Home	1579619643770	1579619643948	OK	 
+REQUEST	1		Compras	1579619648968	1579619649797	KO	Check extractor resolution crashed: No attribute named 'searchSelected' is defined
+USER	Escenario1: Ingreso al Portal	1	END	1579619643731	1579619654802
