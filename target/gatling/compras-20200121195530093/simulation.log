@@ -1,5 +1,0 @@
-RUN	scripts.compras	compras	1579636530093	 	3.0.2
-USER	Escenario1: Ingreso al Portal	1	START	1579636531794	1579636531794
-REQUEST	1		Home	1579636531852	1579636531973	OK	 
-REQUEST	1		Compras	1579636536998	1579636537962	KO	css((#CC-headerWidget-Search,Some(text))).find.exists, found nothing
-USER	Escenario1: Ingreso al Portal	1	END	1579636531794	1579636542959

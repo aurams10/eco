@@ -1,5 +1,0 @@
-RUN	scripts.compras	compras	1579636094190	 	3.0.2
-USER	Escenario1: Ingreso al Portal	1	START	1579636095798	1579636095798
-REQUEST	1		Home	1579636096063	1579636096252	OK	 
-REQUEST	1		Compras	1579636101275	1579636102275	KO	j.c.CSSellyException: Invalid combinator <=>. (state: 6)
-USER	Escenario1: Ingreso al Portal	1	END	1579636095798	1579636107279

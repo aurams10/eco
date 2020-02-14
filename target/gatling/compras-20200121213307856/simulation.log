@@ -1,6 +1,0 @@
-RUN	scripts.compras	compras	1579642387856	 	3.0.2
-USER	Escenario1: Ingreso al Portal	1	START	1579642389428	1579642389428
-REQUEST	1		Home	1579642389459	1579642389604	OK	 
-REQUEST	1		Compras	1579642394622	1579642395630	OK	 
-ERROR	Buscar Producto=Natacion: Failed to build request: No attribute named 'Rdm' is defined 	1579642400657
-USER	Escenario1: Ingreso al Portal	1	END	1579642389428	1579642405664

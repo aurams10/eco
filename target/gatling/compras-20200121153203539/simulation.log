@@ -1,5 +1,0 @@
-RUN	scripts.compras	compras	1579620723539	 	3.0.2
-USER	Escenario1: Ingreso al Portal	1	START	1579620725195	1579620725195
-REQUEST	1		Home	1579620725227	1579620731935	OK	 
-REQUEST	1		Compras	1579620736966	1579620737941	KO	css((inputSearchMobile,None)).find.is(Full header), but actually found nothing
-USER	Escenario1: Ingreso al Portal	1	END	1579620725195	1579620742935

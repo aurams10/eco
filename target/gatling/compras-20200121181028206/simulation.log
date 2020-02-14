@@ -1,5 +1,0 @@
-RUN	scripts.compras	compras	1579630228206	 	3.0.2
-USER	Escenario1: Ingreso al Portal	1	START	1579630229880	1579630229880
-REQUEST	1		Home	1579630229920	1579630230046	OK	 
-REQUEST	1		Compras	1579630235062	1579630236051	KO	css((wrapper-input-mobile shown,Some(class))).find.exists, found nothing
-USER	Escenario1: Ingreso al Portal	1	END	1579630229880	1579630241054

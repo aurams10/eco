@@ -1,5 +1,0 @@
-RUN	scripts.compras	compras	1579619770560	 	3.0.2
-USER	Escenario1: Ingreso al Portal	1	START	1579619772219	1579619772219
-REQUEST	1		Home	1579619772255	1579619772365	OK	 
-REQUEST	1		Compras	1579619777400	1579619778232	KO	Check extractor resolution crashed: No attribute named 'CC-headerWidget-Search' is defined
-USER	Escenario1: Ingreso al Portal	1	END	1579619772219	1579619783219
