@@ -99,10 +99,13 @@ package scripts
       .exec(http("Pagina Login")
         .get(uri01 + "/connect/authorize?client_id=https://ccstore-stage-ze8a.oracleoutsourcing.com/home&redirect_uri=https://ccstore-stage-ze8a.oracleoutsourcing.com/home&response_type=id_token%20token&scope=openid%20profile%20email&nonce=15801541163800.6495629771571915&state=15801541163800.876948323061112")
         .headers(headers_0)
-       // .check(status is 200)
+      //  .check(header("Location").saveAs("AURA"))
         .check(css("#formLogin", "action").saveAs("TOKEN"))
         .check(css("[name=\"__RequestVerificationToken\"]", "value").saveAs("VERIFICAR")))
-
+      //.exec {session =>
+      //  val response1 = session("AURA").as[String]
+      //  println(response1)
+       // session}
 
       .exec(http("Ingreso de Datos")
         .post(uri01 + """${TOKEN}""")
@@ -114,7 +117,7 @@ package scripts
         .formParam("GoogleCaptchaToken", "")
       //  .check(status is 200)
         .check(bodyString.saveAs("Response")))
-
+/*
       .exec(http("Lo mas vendido>Canndado")
         .post("https://ccstore-stage-ze8a.oracleoutsourcing.com/candado/product/HER-B-RED-DEP-TER-096")
         .headers(headers_3)
@@ -126,7 +129,7 @@ package scripts
         .get("https://ccstore-stage-ze8a.oracleoutsourcing.com/ccstoreui/v1/itemTypes/sku-PySMaterial-Articulos?includeBase=true&parent=sku")
         .headers(headers_4)
         .check(status is 200)
-        .check(bodyString.saveAs("Response")))
+        .check(bodyString.saveAs("Response")))*/
 
 /*
       .exec(http("Agregar Carrito Commpras")
